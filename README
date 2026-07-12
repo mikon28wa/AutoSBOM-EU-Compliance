@@ -1,0 +1,47 @@
+# AutoSBOM-EU-Compliance – Automated SBOM Generator for Europe
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Status](https://img.shields.io/badge/Status-Actively%20Developing-blue)
+
+**AutoSBOM-EU-Compliance** is an **Open-Source Tool** that automatically generates compliant **Software Bill of Materials (SBOM)** – specifically optimized for strict European regulatory requirements.
+
+Developed by **Michael Konradi** using a highly detailed **System Instruction** for AI coding tools.
+
+---
+
+## ✨ Key Features
+
+- Scans source code (JS/TS, Python, Java, Go, Rust, …), binaries, Docker containers and Kubernetes manifests
+- Detects direct and transitive dependencies + licenses
+- Supported standards: **SPDX 3.0.1**, **CycloneDX 1.6**, SWID-Tags
+- Export formats: JSON, XML, HTML (visualized), PDF
+- Nested SBOMs (SBOM-in-SBOM) for complex supply chains
+- CLI for CI/CD pipelines + REST API
+- Strict separation of SBOM and VEX/CSAF
+
+## EU Compliance Focus
+
+- **Cyber Resilience Act (CRA)** – Article 10 (mandatory from 2027)
+- **ISO/IEC 5962:2021** – International SBOM standard
+- **BSI TR-03183-2** – Technical guidelines including cryptographic hashes (SHA-256)
+- **GDPR compliant** – EU data centers first, no US cloud dependency
+
+## How It Works
+
+The project is driven by the **`AutoSBOM-EU System Instruction`** – a comprehensive development and compliance specification that is passed to AI coding tools (Claude, Cursor, Grok, etc.).
+
+## Contact
+
+- **Author**: Michael Konradi
+- **Email**: [hallo@llmbluetools.de](mailto:hallo@llmbluetools.de)
+
+## Open Core Model
+
+- **Community Edition** (Open Source, MIT): Core scanner, CLI, basic standards & compliance
+- **Premium Edition** (planned): Web UI, advanced VEX/CSAF automation, enterprise integrations, hosted version & support
+
+## Installation
+
+```bash
+git clone https://github.com/mikon28wa/AutoSBOM-EU-Compliance.git
+cd AutoSBOM-EU-Compliance
